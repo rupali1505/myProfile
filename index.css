@@ -1,0 +1,58 @@
+body{
+    background-image: url("./assets/background\ \(1\).png");
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-box{
+    background-color: #ff574a;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 30px 50px;
+    text-align: center;
+    padding: 40px 90px;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-pic{
+    width: 150px;
+    padding: 6px;
+    border-radius: 50%;
+    border: 4px white solid;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text{
+    color: white;
+}
+
+.text h3,p{
+    margin: 0;
+}
+.social-media{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.social-media img{
+    width:20px
+}
